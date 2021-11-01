@@ -1,3 +1,7 @@
+![Python v3.8.1](https://img.shields.io/badge/python-3.8.1-blue?style=plastic&logo=appveyor.svg)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-notebook-orange?style=plastic)
+![License](https://img.shields.io/github/license/justinbosscher/hospital-bed-utilization?style=plastic&logo=appveyor.svg)
+
 # Lung Cancer Survival Analysis
 
 ## Table of Contents
