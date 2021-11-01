@@ -104,6 +104,18 @@ The objective of the project is to estimate the time-to-death for patients diagn
 #### More simply:
 ![S(ti)](https://miro.medium.com/max/628/0*JrQdEAFQE2rzGFjp.png)
 
+# TODO: Talky stuff here
+
+![Survival Probability](plots/kmf_plot.png)
+
+![Survival Function w/ Confidence Interval](plots/kmf_confidence_plot.png)
+
+![Cumulative Density Plot](plots/kmf_cumulative_density_plot.png)
+
+![Cumulative Density Plot w/ Confidence Interval](plots/kmf_cumulative_density_confidence_plot.png)
+
+![Conditional Median Time To Event](plots/kmf_conditional_median_time_to_event_plot.png)
+
 ### Nelson-Aalen Estimator
 * Is a non-parametric statistic used to estimate hazard rates
 * Often used to measure the fraction of patients who have died for at or by a specified time after treatment or diagnosis
@@ -113,8 +125,32 @@ The objective of the project is to estimate the time-to-death for patients diagn
 #### The cumulative probability of hazard at time t, H(t), is calculated as follows:
 ![H(t)](https://miro.medium.com/max/632/0*HWZQDWmqbS2m7dAj.png)
 
+![Cumulative Probability of Event of Interest](plots/naf_plot.png)
+
+![Cumulative Hazard w/ CI](plots/naf_ci_plot.png)
+
+![Cumulative Hazard v. Cumulative Density](plots/naf_vs_kmf_plot.png)
+
+![Survival Rates by Group](plots/survival_rates_by_sex_plot.png)
+
+![Cumulative Density](plots/cumulative_density_by_sex_plot.png)
+
+![Cumulative Hazard Plot](plots/cumulative_hazard_by_sex_plot.png)
+
 #### To calculate non-cumulative hazard probability at a specified time, t:
 ![H(t)](https://miro.medium.com/max/700/0*ywBrMV_dOz1WbKLi.png)
+
+![Cumulative Hazard v. Cumulative Density](plots/naf_vs_kmf_plot.png)
+
+![Conditional Median Times to Event](plots/conditional_median_time_to_event_by_sex_plot.png)
+
+![Survival Function w/ CI - Male Group](plots/survival_func_conf_interval_male_plot.png)
+
+![Survival Function w/ CI - Female Group](plots/survival_func_conf_interval_female_plot.png)
+
+![Cumulative Density & Cumulative Hazard - Male Group](plots/cum_density_cum_hazard_male_plot.png)
+
+![Cumulative Density & Cumulative Hazard - Female Group](plots/cum_density_cum_hazard_female_plot.png)
 
 ### Log-Rank Test
 * Is a hypothesis test that is used to compare the survival distributions of two samples with the goal of determining if there is any significant difference between the groups compared.
@@ -129,3 +165,7 @@ The objective of the project is to estimate the time-to-death for patients diagn
     * HR = 1 : No Effects
     * HR < 1 : Reduction in Hazard
     * HR > 1 : Increase in Hazard
+
+![Cox's Proportional Hazard Plot](plots/cox_proportional_hazard_plot.png)
+
+![Survival Chances by Subject](plots/survival_chances_by_subject_plot.png)
