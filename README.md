@@ -104,8 +104,6 @@ The objective of the project is to estimate the time-to-death for patients diagn
 #### More simply:
 ![S(ti)](https://miro.medium.com/max/628/0*JrQdEAFQE2rzGFjp.png)
 
-# TODO: Talky stuff here
-
 ![Survival Probability](plots/kmf_plot.png)
 
 ![Survival Function w/ Confidence Interval](plots/kmf_confidence_plot.png)
